@@ -1,0 +1,22 @@
+1) создать папку assets в папке сайта
+2) создать в папке assets файл header.html
+3) перенести код 
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <a href="/" class="logo"><img src="/image/logo.png" alt=""><span>Пингвины!</span></a>
+    <nav class="nav-list">
+        <li class="nav-item"><a href="/addPost.php">Добавить пост</a></li>
+        <li class="nav-item"><a href=""></a></li>
+        <li class="nav-item"><a href=""></a></li>
+    </nav>
+</header>
+ в файл header.html
+4) в файле index.php в начале документа прописать 
+<?php include "assets/header.html";?>
